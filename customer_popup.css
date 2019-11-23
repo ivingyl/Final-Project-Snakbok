@@ -1,0 +1,84 @@
+body
+{
+padding:0;
+margin:0;
+font-family: "Roboto",sans-serif;
+background: url(images/g1.jpg);
+background-size: contain;
+}
+.r1
+{
+    width:500px;
+    height: 400px;
+    background: url(images/w1.jpg);
+    background-size: cover;
+    color: black;
+    top:50%;
+    left:50%;
+    position:absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.r1 .avatar
+{
+    height:100px;
+    margin-top: -20px;
+    width:400px;
+    height:100px;
+    position:absolute;
+    left:10%;
+}
+.r1 .s1
+{
+    margin-top: -20px;
+    left:10%;
+    width:400px;
+    font-family: 'Mountains of Christmas', cursive;
+    font-size: 70px;
+    text-align: center;
+    top:0;
+    color:black;
+}
+
+.r1 button
+{
+    /*font-family: 'Pristina', sans-serif;*/
+    /*text-decoration:none;*/
+    /*font-size: 40px;*/
+    line-height: 30px;
+    /*color:black;*/
+    margin-left: 37%;
+    margin-top: 100px;
+    /*padding: 10px 20px;*/
+    /*background-blend-mode: color-burn;*/
+    /*background:green;*/
+    background-image: linear-gradient(to bottom, #EF1BF6, #1E62D0);
+    /*font-weight: bold;*/
+     text-shadow: 1px 1px 20px #000000;
+   border: inset #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+       border-radius: 20px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 10px;
+   font-weight: 100;
+   padding: 40px;
+   box-shadow: 1px 1px 20px 0px #DD380D;
+
+    width:30%;
+    height:20%;
+}
+.r1 button:hover
+{
+     border: solid #000000 1px;
+   background: #1E62D0;
+     background-image: linear-gradient(to bottom, #1E62D0, #3D94F6);
+  
+   border-radius: 20px;
+   text-decoration: none;
+    
+}
+

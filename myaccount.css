@@ -1,0 +1,125 @@
+body
+{
+padding:0;
+margin:0;
+font-family: "Roboto",sans-serif;
+color:white;
+}
+.myaccountbox
+{
+    width:650px;
+    height: 800px;
+    background: #000;
+    color: black;
+    top:70%;
+    left:50%;
+    position:absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+h1
+{
+    margin:0;
+    padding:0 0 20px;
+    font-size:25px;
+    color:white;
+    font-family: "Tahoma",sans-serif;
+}
+.avatar
+{
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+    position:absolute;
+    top:-50px;
+    left: 40%;
+}
+.myaccountbox p
+{
+    color:white;
+    margin-top:10px;
+    padding:0px;
+    font-weight: bold;
+}
+.myaccountbox p.z1
+{
+    color:white;
+    font-size:15px;
+    display:block;
+}
+.myaccountbox input
+{
+    width:100%
+    margin-bottom:0px;
+}
+.myaccountbox input[type="text"], input[type="password"]
+{
+    border:none;
+    border-bottom: 1px solid white;
+    background:transparent;
+    width:100%;
+    outline:none;
+    height:25px;
+    color:#fff;
+    font-siz:16px;
+}
+.myaccountbox input[type="submit"]
+{
+    margin:20px;
+    border:none;
+    outline:none;
+    height:40px;
+    background: green;
+    color:white;
+    font-size:18px;
+    border-radius:20px;
+    width:100%;
+    margin-left: auto;
+}
+
+.myaccountbox input[type="radio"]
+{
+    color:white;
+}
+.myaccountbox input[type="submit"]:hover
+{
+    cursor:pointer;
+    background:#ffc107;
+    color: #000;
+}
+.myaccountbox a 
+{
+    text-decoration:none;
+    font-size: 15px;
+    line-height: 20px;
+    color:darkgrey;
+}
+.myaccountbox a:hover
+{
+    color: yellow;
+}
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #fff;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+}
